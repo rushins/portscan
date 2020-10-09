@@ -20,7 +20,7 @@ func scanPort(protocol, hostname string, port int) bool {
 
 func main() {
 	fmt.Println("Port Scanning")
-	open := scanPort("tcp", "localhost", 17477)
+	open := scanPort("tcp", "localhost", 17472)
 	fmt.Printf("Port Open: %t\n", open)
 }
 
